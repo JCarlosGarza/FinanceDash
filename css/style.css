@@ -1,0 +1,191 @@
+/* Font Awesome Link */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+header {
+    background-color: #000;
+    color: #f0f0f0;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    color: #00aaff;
+}
+
+header .btn-primary {
+    background-color: #00aaff;
+    border: none;
+}
+
+/* Feature Icons */
+.feature-icon i {
+    color: #00aaff;
+}
+
+/* Dark Theme styling */
+.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Dark Theme adjustments for various sections */
+.dark-theme header, 
+.dark-theme footer, 
+.dark-theme .carousel-item,
+.dark-theme .navbar {
+    background-color: #1a1a1a;
+}
+
+/* Dark Theme - Blockquote Footer */
+.dark-theme .jumbotron blockquote-footer {
+    background-color: transparent; /* Remove background color */
+    color: #cccccc; /* Set a light color for contrast */
+    border-top: none; /* Remove any border if present */
+    font-style: italic;
+    opacity: 0.8; /* Optional: adds a subtle transparency to the text */
+}
+
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3, 
+.dark-theme h4, 
+.dark-theme p {
+    color: #ffffff;
+}
+
+.dark-theme .feature-icon i {
+    color: #66ccff;
+}
+
+.dark-theme .btn-primary {
+    background-color: #005f99;
+    color: #ffffff;
+    border-color: #005f99;
+}
+
+/* Social Media Icons Styling */
+.social-icons a {
+    color: #00aaff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #66ccff;
+}
+
+
+/* Highlight Feature Section Styling */
+.highlight-feature {
+    background-color: #000; /* Dark background */
+    color: #f0f0f0; /* Light text for contrast */
+    padding: 3rem 0;
+}
+
+.highlight-feature h2 {
+    font-size: 2.5rem;
+    color: #00aaff;
+}
+
+.highlight-feature p {
+    font-size: 1.25rem;
+    color: #f0f0f0;
+}
+
+.highlight-feature .btn-primary {
+    background-color: #00aaff;
+    border-color: #00aaff;
+    padding: 0.75rem 2rem;
+}
+
+.highlight-feature .stats {
+    margin-top: 2rem;
+}
+
+.highlight-feature .stat {
+    text-align: center;
+}
+
+.highlight-feature .stat-number {
+    font-size: 2rem;
+    color: #00aaff;
+}
+
+.highlight-feature .stat-label {
+    font-size: 1rem;
+    color: #f0f0f0;
+}
+
+/* Dark Theme adjustments */
+.dark-theme .highlight-feature {
+    background-color: #121212;
+}
+
+.dark-theme .highlight-feature h2, 
+.dark-theme .highlight-feature .stat-number,
+.dark-theme .highlight-feature .btn-primary {
+    color: #66ccff;
+}
+
+.dark-theme .highlight-feature p, 
+.dark-theme .highlight-feature .stat-label {
+    color: #ffffff;
+}
+
+/* App Showcase Section Styles */
+.app-showcase {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.app-showcase h2 {
+    color: #00aaff;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.app-showcase p {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.app-image {
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.app-showcase ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.app-showcase li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.feature-icon {
+    color: #00aaff;
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.app-showcase .btn-primary {
+    background-color: #00aaff;
+    border-color: #00aaff;
+}
+
+@media (max-width: 768px) {
+    .app-showcase .col-md-6 {
+        text-align: center;
+    }
+    .app-image {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
